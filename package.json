@@ -6,7 +6,12 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "heroku-postbuild": "npm run build"
+  },
+  "engines": {
+    "node": "14.17.1",
+    "npm": "6.14.13"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
