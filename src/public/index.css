@@ -16,17 +16,6 @@ hr {
   margin: 16px auto;
 }
 
-ul li {
-  font-size: 14px;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
-
-* {
-  font-family: "Nanum Myeongjo", serif;
-  font-family: "Noto Sans KR", sans-serif;
-}
-
 @media all and (min-width: 320px) and (max-width: 768px) {
   main {
     width: 80%;

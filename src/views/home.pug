@@ -12,12 +12,16 @@ html(lang="en")
             h1 채팅방 테스트
             img(src='public/img/main.png')
         main
-            //- div#nick
-            //-     input(type="text", placeholder="닉네임을 선택하세염", required)
-            //-     button#btn 저장
-            //-     hr
-            ul
-            form#message
-                input(type="text", placeholder="메세지를 입력하세요", required)
-                button 보내보자
+            div#welcome
+                form
+                    input(placeholder="room 코드를 입력하세요.", required, type="text")
+                    button 가보자고!
+                ul
+            div#room
+                h3
+                ul
+                form#msg
+                    input(placeholder="메세지를 입력하세요", required, type="text")
+                    button Send
+    script(src="/socket.io/socket.io.js") 
     script(src="/public/js/app.js")
