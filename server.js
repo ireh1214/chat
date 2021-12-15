@@ -104,5 +104,5 @@ wsServer.on("connection", (socket) => {
 //   });
 // });
 
-const handleListen = () => console.log(`작동되구있음 http://localhost:8080`);
-httpServer.listen(8080, handleListen);
+const handleListen = () => console.log(`작동되구있음 http://localhost:3000`);
+httpServer.listen(3000, handleListen);
